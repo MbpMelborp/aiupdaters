@@ -79,9 +79,9 @@ export default function themePalette(theme) {
             default: theme.backgroundDefault
         },
         card: {
-            main: theme.customization.isDarkMode ? theme.colors?.darkPrimaryMain : theme.colors?.paper,
-            light: theme.customization.isDarkMode ? theme.colors?.darkPrimary200 : theme.colors?.paper,
-            hover: theme.customization.isDarkMode ? theme.colors?.darkPrimary800 : theme.colors?.paper
+            main: theme.customization.isDarkMode ? theme.colors?.darkPrimaryMain : theme.colors?.primaryLight,
+            light: theme.customization.isDarkMode ? theme.colors?.darkPrimary200 : theme.colors?.primaryLight2,
+            hover: theme.customization.isDarkMode ? theme.colors?.darkPrimary800 : theme.colors?.primaryLight3
         },
         asyncSelect: {
             main: theme.customization.isDarkMode ? theme.colors?.darkPrimary800 : theme.colors?.grey50
